@@ -117,11 +117,12 @@ function EditorPage() {
           <hr />
           {/* Buttons */}
           <div className="mt-auto ">
-            <button className="btn btn-success" onClick={copyRoomId}>
+            <button className="btn copyBtn btn-success" onClick={copyRoomId}>
               Copy Room ID
             </button>
             <button
-              className="btn btn-danger mt-2 mb-2 px-3 btn-block"
+    
+              className="btn leaveBtn btn-danger mt-2 mb-2 px-3 btn-block"
               onClick={leaveRoom}
             >
               Leave Room
