@@ -38,7 +38,7 @@ const Home = () => {
         <div className="homePageWrapper">
             <div className="formWrapper">
                 <img
-                    src="/images/codecast.png"
+                    src="/images/codecast.jpeg"
                     alt="Logo"
                     className="img-fluid mx-auto d-block"
                     style={{ maxWidth: "150px" }}
